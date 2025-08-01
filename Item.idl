@@ -6,7 +6,8 @@ namespace Sample
 			Item();
 			String Name1;
 			String Name2;
-			String Source;
+			Double Number1;
+			Double Number2;
 			Boolean Sel{ get; set; };
 			Microsoft.UI.Xaml.Media.Brush ColorX{ get; };
 

@@ -1,0 +1,10 @@
+namespace Sample
+{
+    [default_interface]
+    runtimeclass StaggeredLayout : Microsoft.UI.Xaml.Controls.VirtualizingLayout
+    {
+        StaggeredLayout();
+        Int32 ColumnCount;
+        static Microsoft.UI.Xaml.DependencyProperty ColumnCountProperty{ get; };
+    }
+}

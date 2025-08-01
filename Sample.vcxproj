@@ -130,6 +130,7 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </ClInclude>
     <ClInclude Include="Resizer.h" />
+    <ClInclude Include="StaggeredLayout.h" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml" />
@@ -150,6 +151,7 @@
     </ClCompile>
     <ClCompile Include="$(GeneratedFilesDir)module.g.cpp" />
     <ClCompile Include="Resizer.cpp" />
+    <ClCompile Include="StaggeredLayout.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Midl Include="Item.idl" />
@@ -158,6 +160,7 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Midl>
     <Midl Include="Resizer.idl" />
+    <Midl Include="StaggeredLayout.idl" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="readme.txt">

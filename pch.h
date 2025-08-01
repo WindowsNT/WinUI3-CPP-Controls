@@ -61,3 +61,4 @@
 #include <wil/cppwinrt_helpers.h>
 #include <appmodel.h>
 #include "Resizer.h"
+#include "StaggeredLayout.h"

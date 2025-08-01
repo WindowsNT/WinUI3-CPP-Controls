@@ -11,7 +11,6 @@ namespace winrt::Sample::implementation
         }
         std::wstring _n1;
         std::wstring _n2;
-        std::wstring _src;
         hstring Name1()
         {
             return _n1.c_str();
@@ -19,10 +18,6 @@ namespace winrt::Sample::implementation
         hstring Name2()
         {
             return _n2.c_str();
-        }
-        hstring Source()
-        {
-            return _src.c_str();
         }
 
         void Name1(hstring n)
@@ -34,10 +29,33 @@ namespace winrt::Sample::implementation
         {
             _n2 = n.c_str();
         }
-        void Source(hstring n)
+
+		double _nu1 = 0, _nu2 = 0;
+        double Number1()
         {
-            _src = n.c_str();
+            return _nu1;
+		}
+        void Number1(double n)
+        {
+            if (_nu1 != n)
+            {
+                _nu1 = n;
+                m_propertyChanged(*this, winrt::Microsoft::UI::Xaml::Data::PropertyChangedEventArgs(L"Number1"));
+            }
+		}
+        double Number2()
+        {
+            return _nu2;
         }
+        void Number2(double n)
+        {
+            if (_nu2 != n)
+            {
+                _nu2 = n;
+                m_propertyChanged(*this, winrt::Microsoft::UI::Xaml::Data::PropertyChangedEventArgs(L"Number2"));
+            }
+		}
+
 
         bool Sel()
         {

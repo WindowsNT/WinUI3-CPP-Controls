@@ -12,19 +12,34 @@
   <ItemGroup>
     <Midl Include="MainWindow.idl" />
     <Midl Include="Item.idl" />
-    <Midl Include="Resizer.idl" />
+    <Midl Include="Resizer.idl">
+      <Filter>Controls</Filter>
+    </Midl>
+    <Midl Include="StaggeredLayout.idl">
+      <Filter>Controls</Filter>
+    </Midl>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp" />
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="linker.cpp" />
     <ClCompile Include="$(GeneratedFilesDir)module.g.cpp" />
-    <ClCompile Include="Resizer.cpp" />
+    <ClCompile Include="Resizer.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="StaggeredLayout.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
     <ClInclude Include="Item.h" />
-    <ClInclude Include="Resizer.h" />
+    <ClInclude Include="Resizer.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="StaggeredLayout.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\Wide310x150Logo.scale-200.png">
@@ -57,6 +72,9 @@
     <Filter Include="Themes">
       <UniqueIdentifier>{85a7c69a-a81e-4638-8ef0-e608b6a34e68}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Controls">
+      <UniqueIdentifier>{ae9dfcc3-c971-43b4-9099-967f73120684}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="readme.txt" />
@@ -70,8 +88,5 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="main.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Natvis Include="$(MSBuildThisFileDirectory)..\..\natvis\wil.natvis" />
   </ItemGroup>
 </Project>

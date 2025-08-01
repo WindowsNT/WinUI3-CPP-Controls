@@ -9,12 +9,44 @@
     mc:Ignorable="d"
     Title="Sample">
 
-    <StackPanel Orientation="Vertical" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-        <Rectangle Fill="LightCyan" Height="{x:Bind V1,Mode=OneWay}" ></Rectangle>
-        <local:Resizer Value="{x:Bind V1,Mode=TwoWay}" Orientation="Horizontal" Minimum="100" Maximum="300" HorizontalAlignment="Stretch" />
-      
-        <TextBlock Text="Hello World"  HorizontalAlignment="Center" VerticalAlignment="Stretch"></TextBlock>
-    </StackPanel>
+    <Grid x:Name="Grid1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="{x:Bind VV1,Mode=OneWay}" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!-- Demonstration of Resizer -->
+        <Rectangle Fill="LightCyan" Grid.Row="0" Grid.Column="0"></Rectangle>
+        <local:Resizer Grid.Row="0" Grid.Column="1" Value="{x:Bind V1,Mode=TwoWay}" Orientation="Vertical" Minimum="-200" Maximum="200" HorizontalAlignment="Stretch" />
+        <Rectangle Fill="Red" Grid.Row="0" Grid.Column="2"></Rectangle>
+        
+        
+        <!-- Demonstration of StaggeredLayout -->
+        <ScrollViewer Grid.Row="1" Grid.Column="0">
+            <ItemsRepeater VerticalAlignment="Stretch" x:Name="MyRepeater"  ItemsSource="{x:Bind TheItems,Mode=OneWay}">
+                <ItemsRepeater.Layout>
+                    <local:StaggeredLayout ColumnCount="10"/>
+                </ItemsRepeater.Layout>
+
+                <ItemsRepeater.ItemTemplate>
+                    <DataTemplate x:DataType="local:Item">
+                        <Rectangle Fill="SteelBlue"
+                               Width="50"
+                                   HorizontalAlignment="Stretch"
+                               Height="{x:Bind Number1}"  Margin="1"/>
+                    </DataTemplate>
+                </ItemsRepeater.ItemTemplate>
+            </ItemsRepeater>
+        </ScrollViewer>
+
+
+    </Grid>
+
 
 
 
