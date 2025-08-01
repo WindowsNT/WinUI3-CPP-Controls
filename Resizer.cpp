@@ -9,14 +9,14 @@ using namespace Microsoft::UI::Xaml::Controls;
 using namespace Microsoft::UI::Xaml::Input;
 using namespace Windows::Foundation;
 
-namespace winrt::CSPortToCPP::implementation
+namespace winrt::Sample::implementation
 {
         // Static dependency property definitions
     DependencyProperty Resizer::m_valueProperty =
         DependencyProperty::Register(
             L"Value",
             xaml_typename<double>(),
-            xaml_typename<CSPortToCPP::Resizer>(),
+            xaml_typename<Sample::Resizer>(),
             PropertyMetadata{ box_value(0.0), PropertyChangedCallback{ &Resizer::OnValuePropertyChanged } }
         );
 
@@ -24,7 +24,7 @@ namespace winrt::CSPortToCPP::implementation
         DependencyProperty::Register(
             L"Minimum",
             xaml_typename<double>(),
-            xaml_typename<CSPortToCPP::Resizer>(),
+            xaml_typename<Sample::Resizer>(),
             PropertyMetadata{ box_value(0.0) }
         );
 
@@ -32,7 +32,7 @@ namespace winrt::CSPortToCPP::implementation
         DependencyProperty::Register(
             L"Maximum",
             xaml_typename<double>(),
-            xaml_typename<CSPortToCPP::Resizer>(),
+            xaml_typename<Sample::Resizer>(),
             PropertyMetadata{ box_value(1000.0) }
         );
 
@@ -40,14 +40,14 @@ namespace winrt::CSPortToCPP::implementation
     DependencyProperty Resizer::m_orientationProperty =
         DependencyProperty::Register(
             L"Orientation",
-            xaml_typename<CSPortToCPP::SplitOrientation>(),
-            xaml_typename<CSPortToCPP::Resizer>(),
-            PropertyMetadata{ box_value(CSPortToCPP::SplitOrientation::Vertical) }
+            xaml_typename<Sample::SplitOrientation>(),
+            xaml_typename<Sample::Resizer>(),
+            PropertyMetadata{ box_value(Sample::SplitOrientation::Vertical) }
         );
 
     Resizer::Resizer()
     {
-        DefaultStyleKey(winrt::box_value(L"CSPortToCPP.Resizer"));
+        DefaultStyleKey(winrt::box_value(L"Sample.Resizer"));
     }
 
     void Resizer::OnApplyTemplate()
@@ -55,18 +55,18 @@ namespace winrt::CSPortToCPP::implementation
         __super::OnApplyTemplate();
 
         // Set cursor to indicate draggable behavior
-        if (Orientation() == CSPortToCPP::SplitOrientation::Horizontal)
+        if (Orientation() == Sample::SplitOrientation::Horizontal)
         ProtectedCursor(winrt::Microsoft::UI::Input::InputSystemCursor::Create(winrt::Microsoft::UI::Input::InputSystemCursorShape::SizeNorthSouth));
 		else
         ProtectedCursor(winrt::Microsoft::UI::Input::InputSystemCursor::Create(winrt::Microsoft::UI::Input::InputSystemCursorShape::SizeWestEast));
     }
 
-    CSPortToCPP::SplitOrientation Resizer::Orientation() const
+    Sample::SplitOrientation Resizer::Orientation() const
     {
-        return winrt::unbox_value<CSPortToCPP::SplitOrientation>(GetValue(m_orientationProperty));
+        return winrt::unbox_value<Sample::SplitOrientation>(GetValue(m_orientationProperty));
     }
 
-    void Resizer::Orientation(CSPortToCPP::SplitOrientation const& value)
+    void Resizer::Orientation(Sample::SplitOrientation const& value)
     {
         SetValue(m_orientationProperty, box_value(value));
     }
@@ -96,7 +96,7 @@ namespace winrt::CSPortToCPP::implementation
     {
         __super::OnPointerMoved(e);
 
-        if (Orientation() == CSPortToCPP::SplitOrientation::Horizontal)
+        if (Orientation() == Sample::SplitOrientation::Horizontal)
         {
             if (m_isDragging)
             {
@@ -172,7 +172,7 @@ namespace winrt::CSPortToCPP::implementation
 
     void Resizer::OnValuePropertyChanged(DependencyObject const& d, DependencyPropertyChangedEventArgs const& )
     {
-        if (auto control = d.try_as<CSPortToCPP::Resizer>())
+        if (auto control = d.try_as<Sample::Resizer>())
         {
             if (auto impl = winrt::get_self<implementation::Resizer>(control))
             {
@@ -181,7 +181,7 @@ namespace winrt::CSPortToCPP::implementation
         }
     }
 
-    winrt::event_token Resizer::ValueChanged(TypedEventHandler<CSPortToCPP::Resizer, IInspectable> const& handler)
+    winrt::event_token Resizer::ValueChanged(TypedEventHandler<Sample::Resizer, IInspectable> const& handler)
     {
         return m_valueChangedEvent.add(handler);
     }

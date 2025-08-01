@@ -1,7 +1,7 @@
 #pragma once
 #include "Resizer.g.h"
 
-namespace winrt::CSPortToCPP::implementation
+namespace winrt::Sample::implementation
 {
     struct Resizer : ResizerT<Resizer>
     {
@@ -23,14 +23,14 @@ namespace winrt::CSPortToCPP::implementation
         static Microsoft::UI::Xaml::DependencyProperty MaximumProperty() { return m_maximumProperty; }
 
 
-        CSPortToCPP::SplitOrientation Orientation() const;
-        void Orientation(CSPortToCPP::SplitOrientation const& value);
+        Sample::SplitOrientation Orientation() const;
+        void Orientation(Sample::SplitOrientation const& value);
 
         static Microsoft::UI::Xaml::DependencyProperty OrientationProperty();
         static Microsoft::UI::Xaml::DependencyProperty m_orientationProperty;
 
         // Events
-        winrt::event_token ValueChanged(Windows::Foundation::TypedEventHandler<CSPortToCPP::Resizer, Windows::Foundation::IInspectable> const& handler);
+        winrt::event_token ValueChanged(Windows::Foundation::TypedEventHandler<Sample::Resizer, Windows::Foundation::IInspectable> const& handler);
         void ValueChanged(winrt::event_token const& token) noexcept;
 
         void OnApplyTemplate() ;
@@ -49,7 +49,7 @@ namespace winrt::CSPortToCPP::implementation
         Windows::Foundation::Point m_lastPointerPosition{};
         double m_dragStartValue{ 0.0 };
 
-        winrt::event<Windows::Foundation::TypedEventHandler<CSPortToCPP::Resizer, Windows::Foundation::IInspectable>> m_valueChangedEvent;
+        winrt::event<Windows::Foundation::TypedEventHandler<Sample::Resizer, Windows::Foundation::IInspectable>> m_valueChangedEvent;
 
 
         winrt::event_token PropertyChanged(winrt::Microsoft::UI::Xaml::Data::PropertyChangedEventHandler const& handler)
@@ -65,7 +65,7 @@ namespace winrt::CSPortToCPP::implementation
 
     };
 }
-namespace winrt::CSPortToCPP::factory_implementation
+namespace winrt::Sample::factory_implementation
 {
     struct Resizer : ResizerT<Resizer, implementation::Resizer>
     {
