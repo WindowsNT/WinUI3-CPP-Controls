@@ -21,6 +21,9 @@
     <Midl Include="RangeSelect.idl">
       <Filter>Controls</Filter>
     </Midl>
+    <Midl Include="DockPanel.idl">
+      <Filter>Controls</Filter>
+    </Midl>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp" />
@@ -36,6 +39,9 @@
     <ClCompile Include="RangeSelect.cpp">
       <Filter>Controls</Filter>
     </ClCompile>
+    <ClCompile Include="DockPanel.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -47,6 +53,9 @@
       <Filter>Controls</Filter>
     </ClInclude>
     <ClInclude Include="RangeSelect.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="DockPanel.h">
       <Filter>Controls</Filter>
     </ClInclude>
   </ItemGroup>

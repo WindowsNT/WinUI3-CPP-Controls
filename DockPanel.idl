@@ -1,0 +1,22 @@
+namespace Sample
+{
+
+    enum Dock
+    {
+        Left,
+        Top,
+        Right,
+        Bottom
+    };
+
+
+    [default_interface]
+    runtimeclass DockPanel : Microsoft.UI.Xaml.Controls.Panel
+    {
+        DockPanel();
+        static void SetDock(Microsoft.UI.Xaml.UIElement element, Dock value);
+        static Dock GetDock(Microsoft.UI.Xaml.UIElement element);
+    
+    static Microsoft.UI.Xaml.DependencyProperty DockProperty{ get; };
+    }
+}

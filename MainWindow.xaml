@@ -44,7 +44,16 @@
             </ItemsRepeater>
         </ScrollViewer>
 
-<!--        <local:RangeSelect Grid.Row="1" Grid.Column="1" 
+
+        <local:DockPanel Grid.Row="1" Grid.Column="2" >
+            <Rectangle Fill="Pink" Height="50" local:DockPanel.Dock="Top"/>
+            <Rectangle Fill="Green" Width="80" local:DockPanel.Dock="Left"/>
+            <Rectangle Fill="Blue" Width="80" local:DockPanel.Dock="Right"/>
+            <Rectangle Fill="Gray" local:DockPanel.Dock="Bottom" Height="40"/>
+            <Rectangle Fill="Yellow" />
+        </local:DockPanel>
+
+        <!--        <local:RangeSelect Grid.Row="1" Grid.Column="1" 
     Width="300"
     Height="40"
     Minimum="0"

@@ -121,6 +121,7 @@
     <Manifest Include="app.manifest" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DockPanel.h" />
     <ClInclude Include="Item.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="App.xaml.h">
@@ -139,6 +140,7 @@
     <Page Include="Themes\generic.xaml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DockPanel.cpp" />
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="linker.cpp" />
     <ClCompile Include="pch.cpp">
@@ -156,6 +158,7 @@
     <ClCompile Include="StaggeredLayout.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Midl Include="DockPanel.idl" />
     <Midl Include="Item.idl" />
     <Midl Include="MainWindow.idl">
       <SubType>Code</SubType>

@@ -62,4 +62,5 @@
 #include <appmodel.h>
 #include "Resizer.h"
 #include "StaggeredLayout.h"
+#include "DockPanel.h"
 #include "RangeSelect.h"

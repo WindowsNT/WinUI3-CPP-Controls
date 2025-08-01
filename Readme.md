@@ -70,9 +70,9 @@ winrt::Windows::Foundation::Collections::IObservableVector<winrt::Sample::Item> 
     for (int i = 0; i < 30; ++i)
     {
 		int height = std::uniform_int_distribution  <int>(10, 50)(gen);
-        winrt::Sample::Item item;
-        item.Number1((double)height);
-        items.Append(item);
+		winrt::Sample::Item item;
+		item.Number1((double)height);
+		items.Append(item);
     }
     return items;
 }
