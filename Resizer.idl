@@ -1,0 +1,33 @@
+
+namespace CSPortToCPP
+{
+
+    enum SplitOrientation
+    {
+        Horizontal,
+        Vertical
+    };
+
+	[default_interface]
+	runtimeclass Resizer : Microsoft.UI.Xaml.Controls.Control,Microsoft.UI.Xaml.Data.INotifyPropertyChanged
+	{
+			Resizer();
+            // The value being modified
+            Double Value;
+            static Microsoft.UI.Xaml.DependencyProperty ValueProperty{ get; };
+
+            // Minimum and maximum values
+            Double Minimum;
+            static Microsoft.UI.Xaml.DependencyProperty MinimumProperty{ get; };
+
+            Double Maximum;
+            static Microsoft.UI.Xaml.DependencyProperty MaximumProperty{ get; };
+
+            SplitOrientation Orientation;
+            static Microsoft.UI.Xaml.DependencyProperty OrientationProperty{ get; };
+
+            // Events
+            event Windows.Foundation.TypedEventHandler<Resizer, Object> ValueChanged;
+
+	}
+}
