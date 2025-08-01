@@ -1,6 +1,6 @@
 # WinUI3 C++ controls
 
-From the WinUI3 Community Kit which is C# only I am porting some controls to C++.
+From the WinUI3 Community Kit which is C# only I am porting some controls to C++. Including a Sample application that demonstrates them.
 
 ## Resizer
 
