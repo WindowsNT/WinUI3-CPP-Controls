@@ -12,21 +12,21 @@ A control to change a double property.
 To your layout then:
 
 ```
-            <local:Resizer
-                Minimum="100"
-                Maximum="400"
-                Orientation="Horizontal"
-                Value="{x:Bind R1,Mode=TwoWay}"/>
+<local:Resizer
+	Minimum="100"
+	Maximum="400"
+	Orientation="Horizontal"
+	Value="{x:Bind R1,Mode=TwoWay}"/>
 ```
 
 This creates a horizontal splitter (Vertical is also supported) which modifies the double value R1. This value can then be used into another control:
 
 ```
 <StackPanel Orientation="Horizontal">
-            <TextBlock Width="{x:Bind R1,Mode=OneWay">Text 1</TextBlock>
-			<local:Resizer Minimum="100" Maximum="100" Orientation="Vertical" Value="{x:Bind R1,Mode=TwoWay}" />
-            <TextBlock >Text 2</TextBlock>
-	</StackPanel>
+	<TextBlock Width="{x:Bind R1,Mode=OneWay">Text 1</TextBlock>
+	<local:Resizer Minimum="100" Maximum="100" Orientation="Vertical" Value="{x:Bind R1,Mode=TwoWay}" />
+	<TextBlock >Text 2</TextBlock>
+</StackPanel>
 ```
 
 You can also use it on a grid to size the entire grid row or column by having the ColumnDefinition's Width bound to that variable.
