@@ -31,5 +31,5 @@ This creates a horizontal splitter (Vertical is also supported) which modifies t
 
 You can also use it on a grid to size the entire grid row or column by having the ColumnDefinition's Width bound to that variable.
 
-For a full example, see [XAML Lab](https://github.com/WindowsNT/XAML-Lab/).
+For a full example, see [XAML Lab](https://github.com/WindowsNT/XAML-Lab/), direct link [here](https://www.turbo-play.com/update2/tu.php?p=f3cf159b-de75-4427-8fe0-81a7ae61d3fa&f=88887777-A932-7654-A2E5-DECB481E355D).
 
