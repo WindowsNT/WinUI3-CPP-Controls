@@ -80,6 +80,14 @@ namespace winrt::Sample::implementation
             }
         }
 
+        void OnRangeChanged(Sample::RangeSelect rs , IInspectable)
+        {
+
+            [[maybe_unused]] double start = rs.StartValue();
+            [[maybe_unused]] double end = rs.EndValue();
+
+        }
+
 
         winrt::event_token PropertyChanged(winrt::Microsoft::UI::Xaml::Data::PropertyChangedEventHandler const& handler)
         {

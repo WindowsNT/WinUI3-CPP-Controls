@@ -38,6 +38,7 @@ For a full example, see [XAML Lab](https://github.com/WindowsNT/XAML-Lab/), dire
 ## StaggeredLayout
 
 A panel  that arranges its children in a staggered grid layout, similar to a masonry layout.
+Put the StaggeredLayout h/cpp/idl to your project, changing the namespace. No generic.xaml is needed for this control.
 
 ```
 <ScrollViewer Grid.Row="1" Grid.Column="0">

@@ -1,0 +1,22 @@
+namespace Sample
+{
+    [default_interface]
+    runtimeclass RangeSelect : Microsoft.UI.Xaml.Controls.Control
+    {
+        RangeSelect();
+
+        Double Minimum;
+        Double Maximum;
+        Double StartValue;
+        Double EndValue;
+        Microsoft.UI.Xaml.Controls.Orientation Orientation;
+        
+        static Microsoft.UI.Xaml.DependencyProperty MinimumProperty{ get; };
+        static Microsoft.UI.Xaml.DependencyProperty MaximumProperty{ get; };
+        static Microsoft.UI.Xaml.DependencyProperty StartValueProperty{ get; };
+        static Microsoft.UI.Xaml.DependencyProperty EndValueProperty{ get; };
+        static Microsoft.UI.Xaml.DependencyProperty OrientationProperty{ get; };
+
+        event Windows.Foundation.TypedEventHandler<RangeSelect, Object> RangeChanged;
+    }
+}

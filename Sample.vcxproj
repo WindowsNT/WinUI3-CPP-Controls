@@ -129,6 +129,7 @@
     <ClInclude Include="MainWindow.xaml.h">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </ClInclude>
+    <ClInclude Include="RangeSelect.h" />
     <ClInclude Include="Resizer.h" />
     <ClInclude Include="StaggeredLayout.h" />
   </ItemGroup>
@@ -150,6 +151,7 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="$(GeneratedFilesDir)module.g.cpp" />
+    <ClCompile Include="RangeSelect.cpp" />
     <ClCompile Include="Resizer.cpp" />
     <ClCompile Include="StaggeredLayout.cpp" />
   </ItemGroup>
@@ -159,6 +161,7 @@
       <SubType>Code</SubType>
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Midl>
+    <Midl Include="RangeSelect.idl" />
     <Midl Include="Resizer.idl" />
     <Midl Include="StaggeredLayout.idl" />
   </ItemGroup>

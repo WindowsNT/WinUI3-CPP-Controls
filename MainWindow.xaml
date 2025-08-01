@@ -44,6 +44,15 @@
             </ItemsRepeater>
         </ScrollViewer>
 
+<!--        <local:RangeSelect Grid.Row="1" Grid.Column="1" 
+    Width="300"
+    Height="40"
+    Minimum="0"
+    Maximum="100"
+    StartValue="20"
+    EndValue="80"
+                           Orientation="Horizontal"/>
+-->
 
     </Grid>
 

@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "F:\\WUITOOLS\\MyControls\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9BBA37B7-3B69-00A2-686D-B286DD6F60BE}|Sample.vcxproj|F:\\WUITOOLS\\MyControls\\MainWindow.xaml.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9BBA37B7-3B69-00A2-686D-B286DD6F60BE}|Sample.vcxproj|solutionrelative:MainWindow.xaml.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BBA37B7-3B69-00A2-686D-B286DD6F60BE}|Sample.vcxproj|F:\\WUITOOLS\\MyControls\\StaggeredLayout.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9BBA37B7-3B69-00A2-686D-B286DD6F60BE}|Sample.vcxproj|solutionrelative:StaggeredLayout.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9BBA37B7-3B69-00A2-686D-B286DD6F60BE}|Sample.vcxproj|F:\\WUITOOLS\\MyControls\\RangeSelect.idl||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9BBA37B7-3B69-00A2-686D-B286DD6F60BE}|Sample.vcxproj|solutionrelative:RangeSelect.idl||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BBA37B7-3B69-00A2-686D-B286DD6F60BE}|Sample.vcxproj|F:\\WUITOOLS\\MyControls\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9BBA37B7-3B69-00A2-686D-B286DD6F60BE}|Sample.vcxproj|solutionrelative:MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9BBA37B7-3B69-00A2-686D-B286DD6F60BE}|Sample.vcxproj|F:\\WUITOOLS\\MyControls\\MainWindow.xaml.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9BBA37B7-3B69-00A2-686D-B286DD6F60BE}|Sample.vcxproj|solutionrelative:MainWindow.xaml.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBA37B7-3B69-00A2-686D-B286DD6F60BE}|Sample.vcxproj|F:\\WUITOOLS\\MyControls\\Themes\\generic.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9BBA37B7-3B69-00A2-686D-B286DD6F60BE}|Sample.vcxproj|solutionrelative:Themes\\generic.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBA37B7-3B69-00A2-686D-B286DD6F60BE}|Sample.vcxproj|F:\\WUITOOLS\\MyControls\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9BBA37B7-3B69-00A2-686D-B286DD6F60BE}|Sample.vcxproj|solutionrelative:pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\WUITOOLS\\MyControls\\Readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBA37B7-3B69-00A2-686D-B286DD6F60BE}|Sample.vcxproj|F:\\WUITOOLS\\MyControls\\StaggeredLayout.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9BBA37B7-3B69-00A2-686D-B286DD6F60BE}|Sample.vcxproj|solutionrelative:StaggeredLayout.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BBA37B7-3B69-00A2-686D-B286DD6F60BE}|Sample.vcxproj|F:\\WUITOOLS\\MyControls\\Resizer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -62,24 +74,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RangeSelect.idl",
+              "DocumentMoniker": "F:\\WUITOOLS\\MyControls\\RangeSelect.idl",
+              "RelativeDocumentMoniker": "RangeSelect.idl",
+              "ToolTip": "F:\\WUITOOLS\\MyControls\\RangeSelect.idl",
+              "RelativeToolTip": "RangeSelect.idl",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000564|",
+              "WhenOpened": "2025-08-01T17:17:49.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "pch.h",
+              "DocumentMoniker": "F:\\WUITOOLS\\MyControls\\pch.h",
+              "RelativeDocumentMoniker": "pch.h",
+              "ToolTip": "F:\\WUITOOLS\\MyControls\\pch.h",
+              "RelativeToolTip": "pch.h",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-08-01T17:17:24.971Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "generic.xaml",
+              "DocumentMoniker": "F:\\WUITOOLS\\MyControls\\Themes\\generic.xaml",
+              "RelativeDocumentMoniker": "Themes\\generic.xaml",
+              "ToolTip": "F:\\WUITOOLS\\MyControls\\Themes\\generic.xaml",
+              "RelativeToolTip": "Themes\\generic.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-01T17:16:59.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Readme.md",
               "DocumentMoniker": "F:\\WUITOOLS\\MyControls\\Readme.md",
               "RelativeDocumentMoniker": "Readme.md",
               "ToolTip": "F:\\WUITOOLS\\MyControls\\Readme.md",
               "RelativeToolTip": "Readme.md",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowDwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-08-01T15:28:25.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T15:28:25.426Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "StaggeredLayout.h",
               "DocumentMoniker": "F:\\WUITOOLS\\MyControls\\StaggeredLayout.h",
               "RelativeDocumentMoniker": "StaggeredLayout.h",
@@ -87,12 +136,11 @@
               "RelativeToolTip": "StaggeredLayout.h",
               "ViewState": "AgIAAA0AAAAAAAAAAAAowBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-08-01T15:25:36.109Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T15:25:36.109Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "MainWindow.idl",
               "DocumentMoniker": "F:\\WUITOOLS\\MyControls\\MainWindow.idl",
               "RelativeDocumentMoniker": "MainWindow.idl",
@@ -100,12 +148,11 @@
               "RelativeToolTip": "MainWindow.idl",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000564|",
-              "WhenOpened": "2025-08-01T15:14:43.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T15:14:43.071Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Item.h",
               "DocumentMoniker": "F:\\WUITOOLS\\MyControls\\Item.h",
               "RelativeDocumentMoniker": "Item.h",
@@ -113,12 +160,11 @@
               "RelativeToolTip": "Item.h",
               "ViewState": "AgIAACMAAAAAAAAAAAAowDEAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-08-01T13:40:49.51Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T13:40:49.51Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Item.idl",
               "DocumentMoniker": "F:\\WUITOOLS\\MyControls\\Item.idl",
               "RelativeDocumentMoniker": "Item.idl",
@@ -126,25 +172,24 @@
               "RelativeToolTip": "Item.idl",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000564|",
-              "WhenOpened": "2025-08-01T13:40:36.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T13:40:36.826Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "F:\\WUITOOLS\\MyControls\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "F:\\WUITOOLS\\MyControls\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
-              "ViewState": "AgIAABkAAAAAAAAAAAAkwC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowC8AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-08-01T13:00:56.49Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "StaggeredLayout.cpp",
               "DocumentMoniker": "F:\\WUITOOLS\\MyControls\\StaggeredLayout.cpp",
               "RelativeDocumentMoniker": "StaggeredLayout.cpp",
@@ -152,12 +197,11 @@
               "RelativeToolTip": "StaggeredLayout.cpp",
               "ViewState": "AgIAACcAAAAAAAAAAAAAADAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-08-01T12:54:00.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T12:54:00.841Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "StaggeredLayout.idl",
               "DocumentMoniker": "F:\\WUITOOLS\\MyControls\\StaggeredLayout.idl",
               "RelativeDocumentMoniker": "StaggeredLayout.idl",
@@ -165,12 +209,11 @@
               "RelativeToolTip": "StaggeredLayout.idl",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000564|",
-              "WhenOpened": "2025-08-01T12:53:04.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T12:53:04.075Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Resizer.cpp",
               "DocumentMoniker": "F:\\WUITOOLS\\MyControls\\Resizer.cpp",
               "RelativeDocumentMoniker": "Resizer.cpp",
@@ -178,12 +221,11 @@
               "RelativeToolTip": "Resizer.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-08-01T11:07:21.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T11:07:21.447Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Resizer.h",
               "DocumentMoniker": "F:\\WUITOOLS\\MyControls\\Resizer.h",
               "RelativeDocumentMoniker": "Resizer.h",
@@ -191,12 +233,11 @@
               "RelativeToolTip": "Resizer.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-08-01T11:07:14.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T11:07:14.317Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Resizer.idl",
               "DocumentMoniker": "F:\\WUITOOLS\\MyControls\\Resizer.idl",
               "RelativeDocumentMoniker": "Resizer.idl",
@@ -208,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "MainWindow.xaml.cpp",
               "DocumentMoniker": "F:\\WUITOOLS\\MyControls\\MainWindow.xaml.cpp",
               "RelativeDocumentMoniker": "MainWindow.xaml.cpp",
@@ -220,13 +261,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.h",
               "DocumentMoniker": "F:\\WUITOOLS\\MyControls\\MainWindow.xaml.h",
               "RelativeDocumentMoniker": "MainWindow.xaml.h",
-              "ToolTip": "F:\\WUITOOLS\\MyControls\\MainWindow.xaml.h*",
-              "RelativeToolTip": "MainWindow.xaml.h*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAHAAAAAAAAAA==",
+              "ToolTip": "F:\\WUITOOLS\\MyControls\\MainWindow.xaml.h",
+              "RelativeToolTip": "MainWindow.xaml.h",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAswFwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-08-01T10:46:04.622Z",
               "EditorCaption": ""

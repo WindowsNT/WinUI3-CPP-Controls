@@ -3,7 +3,22 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Sample">
 
-	<Style TargetType="local:Resizer">
+    <Style TargetType="local:RangeSelect">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="local:RangeSelect">
+                    <Grid>
+                        <Rectangle x:Name="Track" Height="4" VerticalAlignment="Center" Fill="LightGray" />
+                        <Rectangle x:Name="RangeHighlight" Height="4" VerticalAlignment="Center" Fill="DodgerBlue" />
+                        <Thumb x:Name="StartThumb" Width="12" Height="12" Background="White" BorderBrush="Black" BorderThickness="1"/>
+                        <Thumb x:Name="EndThumb" Width="12" Height="12" Background="White" BorderBrush="Black" BorderThickness="1"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="local:Resizer">
 		<Setter Property="Background" Value="{ThemeResource SystemControlBackgroundBaseLowBrush}" />
 		<Setter Property="BorderBrush" Value="{ThemeResource SystemControlForegroundBaseMediumBrush}" />
 		<Setter Property="BorderThickness" Value="1" />

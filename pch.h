@@ -62,3 +62,4 @@
 #include <appmodel.h>
 #include "Resizer.h"
 #include "StaggeredLayout.h"
+#include "RangeSelect.h"
